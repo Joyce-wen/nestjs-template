@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "usernamehw.errorlens",
+    "igorsbitnev.error-gutters",
+    "dsznajder.es7-react-js-snippets",
+    "redjue.git-commit-plugin",
+    "antfu.iconify",
+    "xabikos.javascriptsnippets",
+    "christian-kohler.path-intellisense",
+  ]
+}

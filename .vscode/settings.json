@@ -1,0 +1,116 @@
+{
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off", "fixable": true },
+    { "rule": "format/*", "severity": "off", "fixable": true },
+    { "rule": "*-indent", "severity": "off", "fixable": true },
+    { "rule": "*-spacing", "severity": "off", "fixable": true },
+    { "rule": "*-spaces", "severity": "off", "fixable": true },
+    { "rule": "*-order", "severity": "off", "fixable": true },
+    { "rule": "*-dangle", "severity": "off", "fixable": true },
+    { "rule": "*-newline", "severity": "off", "fixable": true },
+    { "rule": "*quotes", "severity": "off", "fixable": true },
+    { "rule": "*semi", "severity": "off", "fixable": true }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "xml",
+    "gql",
+    "graphql",
+    "astro",
+    "svelte",
+    "css",
+    "less",
+    "scss",
+    "pcss",
+    "postcss"
+  ],
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "NOTE",
+    "TIP"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    // 要做的事情
+    "TODO": {
+      "icon": "checklist",
+      "foreground": "#fff",
+      "iconColour": "#fdb933",
+      "gutterIcon": true,
+      "background": "#fdb933",
+      "type": "text"
+    },
+    // 提示代码需要修改
+    "FIXME": {
+      "icon": "beaker",
+      "foreground": "#fff",
+      "iconColour": "#f3715c",
+      "gutterIcon": true,
+      "background": "#f3715c",
+      "type": "text"
+    },
+    // 代码提示
+    "TIP": {
+      "icon": "bell",
+      "foreground": "#fff",
+      "iconColour": "#7fb80e",
+      "gutterIcon": true,
+      "background": "#7fb80e",
+      "type": "text"
+    },
+    // 代码功能注释
+    "NOTE": {
+      "icon": "code",
+      "foreground": "#fff",
+      "iconColour": "#426ab3",
+      "gutterIcon": true,
+      "background": "#426ab3",
+      "type": "text"
+    },
+    // 表示代码以后可能出现问题
+    "HACK": {
+      "icon": "unverified",
+      "foreground": "#fff",
+      "iconColour": "#f15a22",
+      "gutterIcon": true,
+      "background": "#f15a22",
+      "type": "text"
+    },
+    // BUG
+    "BUG": {
+      "icon": "bug",
+      "foreground": "#fff",
+      "iconColour": "#ff0000",
+      "gutterIcon": true,
+      "background": "#ff0000",
+      "type": "text"
+    }
+  },
+  "todo-tree.general.statusBar": "tags", // 在编辑器控制栏显示各项数量
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.regex.regexCaseSensitive": true, // 取消判断大小写
+  "todo-tree.highlights.useColourScheme": true,
+  // path intellisense
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  },
+}
